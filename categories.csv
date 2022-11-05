@@ -97,6 +97,7 @@
 /Beauty & Fitness/Fashion & Style,Health
 /Beauty & Fitness/Fashion & Style/Fashion Designers & Collections,Health
 /Beauty & Fitness/Fitness,Health
+/Beauty & Fitness/Fitness/Gyms & Health Clubs,Health
 /Beauty & Fitness/Hair Care,Health
 /Beauty & Fitness/Hair Care/Hair Loss,Health
 /Beauty & Fitness/Spas & Beauty Services,Health
@@ -210,6 +211,7 @@
 /Finance/Credit & Lending/Loans,Finances
 /Finance/Financial Planning & Management,Finances
 /Finance/Financial Planning & Management/Retirement & Pension,Finances
+/Finance/Financial Planning & Management/Other,Finances
 "/Finance/Grants, Scholarships & Financial Aid",Finances
 "/Finance/Grants, Scholarships & Financial Aid/Study Grants & Scholarships",Finances
 /Finance/Insurance,Finances
@@ -291,6 +293,7 @@
 /Health/Health Conditions/Respiratory Conditions,Health
 /Health/Health Conditions/Skin Conditions,Health
 /Health/Health Conditions/Sleep Disorders,Health
+/Health/Health Conditions/GERD & Digestive Disorders,Health
 /Health/Health Education & Medical Training,Health
 /Health/Health Foundations & Medical Research,Health
 /Health/Medical Devices & Equipment,Health
@@ -449,6 +452,7 @@
 /People & Society/Family & Relationships/Family,Relationships
 /People & Society/Family & Relationships/Marriage,Marriage
 /People & Society/Family & Relationships/Troubled Relationships,Relationships
+/People & Society/Family & Relationships/Family/Other,Relationships
 /People & Society/Kids & Teens,Parenting
 /People & Society/Kids & Teens/Children's Interests,Parenting
 /People & Society/Kids & Teens/Teen Interests,Parenting
