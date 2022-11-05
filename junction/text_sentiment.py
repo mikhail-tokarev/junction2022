@@ -2,6 +2,8 @@
 
 from google.cloud import language_v1
 
+from .category import transform_category
+
 
 def _analyze_sentiment(client, text):
     document = {'content': text, 'language': 'en', 'type_': language_v1.Document.Type.PLAIN_TEXT}
@@ -29,8 +31,8 @@ def _classify_text(client, text):
     )
 
     result = [{
-        'category_full': category.name,  # https://cloud.google.com/natural-language/docs/categories
-        'category': category.name.split('/')[1],
+        'category_original': category.name,  # https://cloud.google.com/natural-language/docs/categories
+        'category': transform_category(category.name),
         'confidence': category.confidence,
     } for category in response.categories]
 

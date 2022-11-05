@@ -6,7 +6,7 @@ from junction import text_sentiment
 
 app = Flask(__name__)
 
-@app.route('/')
-def index():
-    text = request.args['text']
-    return text_sentiment.analyze_text(text)
+@app.route('/', methods=['POST'])
+def analyze_text():
+    payload = request.json
+    return text_sentiment.analyze_text(payload['text'])

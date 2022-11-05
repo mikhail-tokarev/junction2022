@@ -6,5 +6,5 @@ docker run --rm -it --name junction -p 127.0.0.1:5000:5000 junction
 ```
 
 ```
-curl "https://junction2022.bropro.systems/?text=I+love+to+hack+on+Junction"
+curl -X POST http://127.0.0.1:5000/ -d '{"text": "I love to hack on Junction"}'
 ```
