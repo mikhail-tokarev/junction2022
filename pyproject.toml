@@ -8,6 +8,7 @@ authors = ["Mikhail Tokarev <mikhail.tokarev@gmail.com>"]
 python = "^3.10"
 google-cloud-language = "^2.6.1"
 Flask = "^2.2.2"
+gunicorn = "^20.1.0"
 
 [tool.poetry.dev-dependencies]
 

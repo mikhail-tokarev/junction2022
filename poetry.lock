@@ -158,6 +158,20 @@ grpcio = ">=1.50.0"
 protobuf = ">=4.21.6"
 
 [[package]]
+name = "gunicorn"
+version = "20.1.0"
+description = "WSGI HTTP Server for UNIX"
+category = "main"
+optional = false
+python-versions = ">=3.5"
+
+[package.extras]
+eventlet = ["eventlet (>=0.24.1)"]
+gevent = ["gevent (>=1.4.0)"]
+setproctitle = ["setproctitle"]
+tornado = ["tornado (>=0.2)"]
+
+[[package]]
 name = "idna"
 version = "3.4"
 description = "Internationalized Domain Names in Applications (IDNA)"
@@ -303,7 +317,7 @@ watchdog = ["watchdog"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "7350746ca255ad16da73f2b3872d2ff69de49e7d33cfd6395627b723bc3a7305"
+content-hash = "8f69da17df5ebe55df15312253a25e6df78b8e9e81381d234fb4febbe167bf60"
 
 [metadata.files]
 cachetools = []
@@ -318,6 +332,7 @@ google-cloud-language = []
 googleapis-common-protos = []
 grpcio = []
 grpcio-status = []
+gunicorn = []
 idna = []
 itsdangerous = []
 jinja2 = []
